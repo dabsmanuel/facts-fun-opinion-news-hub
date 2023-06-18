@@ -9,7 +9,7 @@ const Blogs = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const blogsPerPage = 4;
 
-  const { loading, error, data } = UseFetch(
+  const { error, data } = UseFetch(
     "http://localhost:1337/api/blog-posts?populate=*",
   );
 
