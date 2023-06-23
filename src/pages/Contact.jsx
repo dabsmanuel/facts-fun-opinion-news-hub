@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <NavBar />
 
-      <section className="my-16">
+      <section className="lg:w-4/5 m-auto my-10 w-[90vw]">
         <dv className="lg:flex flex-wrap justify-center items-center w-4/5 m-auto">
           <Form/>
           <div className="bg-slate-900 p-10 lg:w-[30vw] lg:h-[80vh]">
@@ -17,7 +17,7 @@ const Contact = () => {
             <p className="text-gray-600 text-xl">
               We are open for any suggestions or just to have a chat
             </p>
-            <div className='my-6'>
+            <div className='mt-6'>
               {contact.map(({ id, icon, title, description }) => {
                 return (
                   <div key={id} className="pb-8">

@@ -29,7 +29,7 @@ const Details = () => {
               className='h-[50vh] m-auto w-full object-cover'
             />
           </div>
-          <div className='pt-4 lg:text-2xl text-xl'>
+          <div className='pt-4 lg:text-xl'>
             <p>{data.attributes.content}</p>
             <small className="text-gray-700">
               Published: {data.attributes.date}

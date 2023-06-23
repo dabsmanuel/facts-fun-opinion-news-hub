@@ -10,7 +10,7 @@ const Landingpage = () => {
       <section className="landingpage bg-slate-400 border-b border-gray-1 pb-16">
         <div className="flex w-5/6 justify-center items-center mx-auto h-[85vh]">
           <div className="px-3">
-            <h1 className="pacific text-4xl lg:text-7xl text-slate-100 font-bold pb-6 text-center">
+            <h1 className="pacific text-3xl lg:text-7xl text-slate-100 font-bold pb-6 text-center">
               Facts, Opinions & News Hub
             </h1>
             <div className="text-center text-slate-100 text-xl w-96 m-auto pt-8">
