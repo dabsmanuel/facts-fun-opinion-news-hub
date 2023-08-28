@@ -1,0 +1,29 @@
+.header-bg {
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 11111;
+    height: 12vh;
+    width: 100%;
+    /* opacity: 0.9; */
+}
+
+.header-bg a, .header-bg .logo{
+    color: #5e5e5e;
+    transition: 300ms all ease-in-out;
+}
+
+.header-bg a:hover{
+    color: black;
+}
+
+@media (max-width: 764px) {
+    nav{
+        background: white;
+        padding-bottom: 1rem;
+    }
+
+    nav a, nav .logo, nav .xml{
+        color: #222;
+    }
+} 

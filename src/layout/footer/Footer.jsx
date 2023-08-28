@@ -20,10 +20,10 @@ const Footer = () => {
   }
 
   return (
-    <section className="bg-slate-900 text-white py-6">
-      <div className="text-center pt-8 pb-6 text-white text-xl">
+    <section className="bg-[#444] py-6 text-white">
+      <div className="text-center pt-8 pb-6 text-xl">
         <p>
-          &copy; Facts, Opinions & News Hub all rights reserved Copyrights{" "}
+          &copy; Suites Hotel all rights reserved Copyrights{" "}
           {date}
         </p>
       </div>

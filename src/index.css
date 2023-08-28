@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Teko:wght@300;400;500&display=swap');
-
 body{
-    font-family: 'Teko', sans-serif;
+    font-family: 'work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    overflow-x: hidden;
 }
 
 html{
     scroll-behavior: smooth
 }
 
-.pacific{
-    font-family: 'Pacifico', cursive;
+.logo{
+    font-family: "Playfair Display";
 }
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playfair Display";
+}
+
+
 
 
 

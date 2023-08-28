@@ -1,0 +1,12 @@
+.count{
+    background-image: url("../../assets/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+}
+
+.letter{
+    letter-spacing: 2px;
+}
